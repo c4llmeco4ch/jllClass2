@@ -14,4 +14,4 @@ jobs:
         with:
           who-to-greet: "Y'all"
 
-      - run: echo "This workflow was run at ${{ steps.hello-world.outputs.time }}
+      - run: echo "This workflow was run at ${{ steps.hello-world.outputs.time }} "
