@@ -18,5 +18,5 @@ jobs:
       - run: |
           echo "The name of the event that triggered this workflow was ${{ github.event_name }}"
           echo "The ref is ${{ github.ref }}, while the repo is ${{ github.repository }}"
-      - uses: actions/checkout@v4.0
+      - uses: actions/checkout@v4
       - run: tree
