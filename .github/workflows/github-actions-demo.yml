@@ -6,11 +6,10 @@ on:
     paths-ignore: [ .github/** ]
   pull_request:
     branches: [ main ]
-
   schedule:
     - cron: '15 6 * * SUN'
-
   workflow_dispatch:
+    
 
 jobs:
   Build:
